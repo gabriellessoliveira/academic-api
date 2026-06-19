@@ -1,6 +1,7 @@
 # Fluxograma - Academic API
 
 Este fluxograma mostra de forma resumida como funciona a API e quais operações podem ser realizadas.
+```mermaid
 
 flowchart TD
     A[Início] --> B[Usuário acessa a API pelo Swagger]
@@ -43,4 +44,4 @@ flowchart TD
     V --> W[Fim]
     M --> W
     T --> W
-
+```
